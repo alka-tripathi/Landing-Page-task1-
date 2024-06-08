@@ -1,0 +1,154 @@
+*{
+    padding:0;
+    margin: 0;
+    scrollbar-width: none; 
+
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+}
+
+
+.outer{
+    height: 100vh;
+    width:65%;
+    position:absolute;
+    left:0;
+    right: 0;
+    top:0;
+    bottom:0;
+    margin: auto;
+    overflow:overlay; /*the main scroller part*/
+    background-color: #b6bbc4c4;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.448);
+
+}
+
+#ai{
+    padding: 5px 0px 5px 0px;
+}
+body{
+    background-color: #EEEDED;
+}
+#about{
+    font-size: 20px;
+   
+
+}
+.box1{
+    height:40vh;
+    width: 100%;
+     background-image: url("AI-1.jpg");
+    background-position: center;
+    background-size: cover;
+
+}
+.box2{
+    height:60vh;
+    width: 100%;
+   margin-top:40px;
+   background-color: #121212;
+}
+#foot-head{
+    height: 8vh;
+    width: 100%;
+    text-align: center;
+    color: #EEEDED;
+
+    padding-top: 20px;
+}
+#two{
+    height: 30vh;
+    width: 100%;
+    text-align: center;
+    color: #EEEDED;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5;
+     
+}
+span{
+    color:white;
+}
+.three{
+    height: 10vh;
+    width: 100%;
+    text-align: center;
+    color: #EEEDED;
+    padding-top:30px;
+  
+}
+
+i{
+        margin-left: 20px;
+}
+.image1{
+    height:40vh;
+    width:40%;
+    background-image: url("AI-problemsolving.jpg");
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    /* box-shadow: h-shadow v-shadow blur spread color inset; */
+    box-shadow:10px 10px 20px black;
+}
+.image2{
+    height: 40vh;
+    width:40%;
+    background-image: url("AI-learning.jpg");
+    background-size: cover;
+    background-position: center;
+    box-shadow:10px 10px 20px black;
+}
+.image3{
+    height: 40vh;
+    width:40%;
+    background-image: url("sophia-robot.jpg");
+    background-size: cover;
+    background-position: center;
+    box-shadow:10px 10px 20px black;
+}
+.image4{
+    height: 40vh;
+    width:40%;
+   background-image: url("knowelege.jpg");
+    background-size: cover;
+    background-position: center;
+    box-shadow:10px 10px 20px black;
+}
+
+
+h1{
+    text-align: center;
+}
+
+.text{
+    height: 40vh;
+    width:40%;
+    text-align: center;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+  
+}
+.box-text{
+    height: 20vh;
+    width: 100%;
+    text-align: center;
+    font-size:16px;
+    padding:0px 30px 0px 0px;
+
+}
+.box{
+    display: flex;
+    justify-content:space-evenly;
+  height: 40vh;
+  width: 100%;
+  margin-top: 20px;
+}
